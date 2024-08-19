@@ -1,5 +1,5 @@
 <launch>
     <node pkg = "turtlesim" type = "turtlesim_node" name = "first_letter" output = "screen"/>
-    <node pkg = "first" type = "tutle.py" name = "second_letter" output = "screen"/>
+    <node pkg = "first" type = "first_letter.py" name = "second_letter" output = "screen"/>
     <node pkg = "first" type = "Rotate.py" name = "Rotate" output = "screen"/>
 </launch>
